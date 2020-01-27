@@ -104,5 +104,3 @@ This model was somewhat accurate, with a higher accuracy of test data than train
 This model was much more accurate and I was able to get an insight into the most important features. The training data was **99.27%** accurate whereas the test data was **87.93%** accurate, which still isn't bad.
 
 The most important features are koi_prad, koi_period, and koi_insol as outlined in this graph:
-
-[important_features.png](Mokerlund's_solution/Images/important_features.png)

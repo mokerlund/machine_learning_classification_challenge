@@ -1,10 +1,8 @@
-# 1. Instructions:
-
-## Machine Learning Homework - Exoplanet Exploration
+# Machine Learning Homework - Exoplanet Exploration
 
 ![exoplanets.jpg](Images/exoplanets.jpg)
 
-#### Before You Begin
+### Before You Begin
 
 1. Create a new repository for this project called `machine-learning-challenge`. **Do not add this homework to an existing repository**.
 
@@ -16,11 +14,11 @@
 
 5. Commit your Jupyter notebooks and model file and push them to GitHub.
 
-### Note
+## Note
 
 Keep in mind that this homework is optional! However, you will gain a much greater understanding of testing and tuning different Classification models if you do complete it.
 
-### Background
+## Background
 
 Over a period of nine years in deep space, the NASA Kepler space telescope has been out on a planet-hunting mission to discover hidden planets outside of our solar system.
 
@@ -34,27 +32,27 @@ In this homework assignment, you will need to:
 
 - - -
 
-### Instructions
+## Instructions
 
-#### Preprocess the Data
+### Preprocess the Data
 
 * Preprocess the dataset prior to fitting the model.
 * Perform feature selection and remove unnecessary features.
 * Use `MinMaxScaler` to scale the numerical data.
 * Separate the data into training and testing data.
 
-#### Tune Model Parameters
+### Tune Model Parameters
 
 * Use `GridSearch` to tune model parameters.
 * Tune and compare at least two different classifiers.
 
-#### Reporting
+### Reporting
 
 * Create a README that reports a comparison of each model's performance as well as a summary about your findings and any assumptions you can make based on your model (is your model good enough to predict new exoplanets? Why or why not? What would make your model be better at predicting new exoplanets?).
 
 - - -
 
-### Resources
+## Resources
 
 * [Exoplanet Data Source](https://www.kaggle.com/nasa/kepler-exoplanet-search-results)
 
@@ -66,7 +64,7 @@ In this homework assignment, you will need to:
 
 - - -
 
-### Hints and Considerations
+## Hints and Considerations
 
 * Start by cleaning the data, removing unnecessary columns, and scaling the data.
 
@@ -78,7 +76,7 @@ In this homework assignment, you will need to:
 
 - - -
 
-### Submission
+## Submission
 
 * Create a Jupyter Notebook for each model and host the notebooks on GitHub.
 
@@ -89,20 +87,3 @@ In this homework assignment, you will need to:
 * Submit the link to your GitHub project to Bootcamp Spot.
 
 ##### © 2019 Trilogy Education Services, a 2U, Inc. brand. All Rights Reserved.
-
-
-# 2. Mokerlund's Solution:
-
-## Findings from ML models of exoplanet classification
-
-### Model 1: Using K-means clustering
-
-This model was somewhat accurate, with a higher accuracy of test data than training data. At **79.72%** and **79.41%**, respectively.
-
-### Model 2: Using a random trees classifier
-
-This model was much more accurate and I was able to get an insight into the most important features. The training data was **99.27%** accurate whereas the test data was **87.93%** accurate, which still isn't bad.
-
-The most important features are koi_prad, koi_period, and koi_insol as outlined in this graph:
-
-[important_features.png](Mokerlund's_solution/Images/important_features.png)

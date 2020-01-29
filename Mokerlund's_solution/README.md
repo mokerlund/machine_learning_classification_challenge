@@ -10,4 +10,4 @@ This model was much more accurate and I was able to get an insight into the most
 
 The most important features are koi_prad, koi_period, and koi_insol as outlined in this graph:
 
-[important_features.png](Images/important_features.png)
+![important_features.png](Images/important_features.png)
